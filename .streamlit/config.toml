@@ -6,4 +6,4 @@ enableCORS = false
 gatherUsageStats = false 
 
 [source]
-additionalPaths = ["C:\Users\games\OneDrive\Documents\GitHub\knowledge_gpt"]
+additionalPaths = ["C:\Users\games\OneDrive\Documents\GitHub\knowledge_gpt\knowledge_gpt"]
