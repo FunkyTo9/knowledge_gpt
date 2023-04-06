@@ -28,8 +28,8 @@ class OpenAIEmbeddings(BaseModel, Embeddings):
     """
 
     client: Any  #: :meta private:
-    document_model_name: str = "text-davinci-002"
-    query_model_name: str = "text-davinci-002"
+    document_model_name: str = "text-davinci"
+    query_model_name: str = "text-davinci"
     openai_api_key: Optional[str] = None
 
     class Config:
