@@ -1,9 +1,2 @@
 [server]
 maxUploadSize = 15
-enableCORS = false 
-
-[browser]
-gatherUsageStats = false 
-
-[source]
-additionalPaths = ["C:\Users\games\OneDrive\Documents\GitHub\knowledge_gpt\knowledge_gpt"]
