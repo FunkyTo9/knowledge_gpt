@@ -28,8 +28,8 @@ class OpenAIEmbeddings(BaseModel, Embeddings):
     """
 
     client: Any  #: :meta private:
-    document_model_name: str = "text-embedding-ada-002"
-    query_model_name: str = "text-embedding-ada-002"
+    document_model_name: str = "gpt-3.5-turbo-0301"
+    query_model_name: str = "gpt-3.5-turbo-0301"
     openai_api_key: Optional[str] = None
 
     class Config:
